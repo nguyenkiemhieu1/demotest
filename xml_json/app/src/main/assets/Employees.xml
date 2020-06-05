@@ -1,0 +1,22 @@
+<employees>
+    <employee>
+        <Name>Nguyen Hoang Diep </Name>
+        <Career>Teacher</Career>
+        <Phone>0923848008</Phone>
+    </employee>
+    <employee>
+        <Name>TK12.5</Name>
+        <Career>Student</Career>
+        <Phone>101145</Phone>
+    </employee>
+    <employee>
+        <Name>Chu Bà Thông</Name>
+        <Career>Actor</Career>
+        <Phone>101010101010</Phone>
+    </employee>
+    <employee>
+        <Name>Kiều Phong</Name>
+        <Career>Engineer</Career>
+        <Phone>0901334556</Phone>
+    </employee>
+</employees>

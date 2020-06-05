@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    >
+    <TextView android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_nice"
+        android:text="Example Background Audio Player"
+        />
+    <Button android:text="Start Playback"
+        android:id="@+id/StartPlaybackButton"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#5f0000"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_nice"
+        ></Button>
+    <Button android:text="Stop Playback"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#5f0000"
+        android:layout_width="250dp"
+        android:id="@+id/StopPlaybackButton"
+        android:background="@drawable/button_nice"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Nghe nhạc Online"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#5f0000"
+        android:layout_width="250dp"
+        android:id="@+id/btHttp"
+        android:background="@drawable/button_nice"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="#cfd8dc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:backgroundTint="#eeeeee"
+
+                android:textAllCaps="false"
+                android:id="@+id/bt_mauDo"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:text="Màu đỏ" />
+
+            <Button
+                android:textAllCaps="false"
+                android:backgroundTint="#eeeeee"
+                android:id="@+id/bt_mauXanh"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/bt_mauDo"
+                android:text="Màu Xanh" />
+
+            <Button
+                android:backgroundTint="#eeeeee"
+                android:textAllCaps="false"
+                android:id="@+id/bt_mauTim"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/bt_mauXanh"
+                android:text="Màu Tím" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top">
+
+            <Button
+                android:backgroundTint="#eeeeee"
+                android:id="@+id/bt_mauVang"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_mauTim"
+                android:layout_margin="10dp"
+                android:text="Màu Vàng"
+                android:textAllCaps="false" />
+
+            <Button
+                android:backgroundTint="#eeeeee"
+                android:textAllCaps="false"
+                android:id="@+id/bt_mauCam"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_mauXanh"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/bt_mauVang"
+                android:text="Màu Cam" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

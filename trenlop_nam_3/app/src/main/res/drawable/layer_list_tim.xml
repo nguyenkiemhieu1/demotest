@@ -1,0 +1,70 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<item-->
+    <!--android:bottom="21dp"-->
+    <!--android:left="32dp"-->
+    <!--android:right="32dp"-->
+    <!--android:top="37dp">-->
+    <!--<rotate android:fromDegrees="45">-->
+    <!--<shape>-->
+    <!--<solid android:color="#0ff" />-->
+    <!--<size-->
+    <!--android:width="100dp"-->
+    <!--android:height="100dp" />-->
+    <!--</shape>-->
+    <!--</rotate>-->
+    <!--</item>-->
+
+
+    <!--<item-->
+        <!--android:bottom="52dp"-->
+        <!--android:right="68dp">-->
+        <!--<shape android:shape="oval">-->
+            <!--<solid android:color="#0ff" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <!--<item-->
+        <!--android:bottom="52dp"-->
+        <!--android:left="68dp">-->
+        <!--<shape android:shape="oval">-->
+            <!--<solid android:color="#0ff" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+
+<!--</layer-list>-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- The bottom layer is a blue square rotate 45 degree rotation. -->
+<item
+    android:top="76dp"
+    android:bottom="42dp"
+    android:left="66dp"
+    android:right="66dp">
+    <rotate android:fromDegrees="45">
+        <shape>
+            <solid android:color="#0ff" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+        </shape>
+    </rotate>
+</item>
+<!--The middle layer is a red oval.-->
+<item
+    android:bottom="90dp"
+    android:right="100dp">
+    <shape android:shape="oval">
+        <solid android:color="#0ff" />
+    </shape>
+</item>
+<!--The top layer is a green oval. -->
+<item
+    android:bottom="90dp"
+    android:left="100dp">
+    <shape android:shape="oval">
+        <solid android:color="#0ff" />
+    </shape>
+</item>
+</layer-list>

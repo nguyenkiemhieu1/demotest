@@ -1,0 +1,27 @@
+[
+  {
+    "id": "01",
+    "name": "coffee",
+    "price": 20000
+  },
+  {
+    "id": "02",
+    "name": "smothie",
+    "price": 30000
+  },
+  {
+    "id": "03",
+    "name": "Matcha",
+    "price": 30000
+  },
+  {
+    "id": "04",
+    "name": "Ice blended",
+    "price": 35000
+  },
+  {
+    "id": "05",
+    "name": "juice",
+    "price": 25000
+  }
+]

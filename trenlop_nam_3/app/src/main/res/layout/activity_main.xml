@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/intent"
+      android:text="intent "
+      />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btntl"
+      android:text="abcbac"/>
+    <Button
+        android:background="@drawable/mau"
+        android:id="@+id/btn_thietke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="background"/>
+  <Button
+      android:id="@+id/btn_canvas"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=" canvas"/>
+    <Button
+        android:text="canvas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_canvas2"/>
+
+<TextView
+    android:id="@+id/tv_textview"
+    android:text=" hugna"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:text="dohoa2d_bai2"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_dohoa2d"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="animation"
+        android:id="@+id/btnanim"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnbai1"
+        android:text="bài 1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnbai2lt"
+        android:text="bài 2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndt"
+        android:text="dt"
+        />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/btn_mp3"
+          android:text="MP3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_alarm"
+        android:text="alarm"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="video_view"
+          android:id="@+id/video_view"/>
+  </LinearLayout>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnbai2"
+      android:text="bai2"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/touch"
+      android:text="touch"
+      />
+</LinearLayout>

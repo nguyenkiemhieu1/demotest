@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trenlop_nam_3">
+    <!-- Permission: Allow Connect to Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permission: Writing to SDCard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".amimation"></activity>
+        <activity android:name=".canvas_tutorial2" />
+        <activity
+            android:name=".canvas_tutorial"
+            android:label="jjjj" />
+        <activity android:name=".thiet_ke" />
+        <activity
+            android:name=".intent"
+            android:label="chuyen tab" />
+        <activity
+            android:name=".MainActivity"
+            android:label="thiet ke">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".animation"
+            android:label="do hoa"/>
+        <activity android:name=".bai1_BT_trenlop"
+            android:label="bai1"/>
+        <activity android:name=".Main_baiTH2_bai1"
+            android:label="bai2">
+        </activity>
+        <activity android:name=".Main_Touch_Event">
+        </activity>
+        <activity android:name=".Main_bai2_lt">
+        </activity>
+        <activity android:name=".Main_da_tuyen"></activity>
+        <activity android:name=".Main_nhac">
+        </activity>
+        <service android:name=".BackgroundAudioService" />
+        <activity android:name=".vd_baothuc.Main_a"></activity>
+        <activity android:name=".vd_baothuc.AlarmTriggerActivity"></activity>
+        <service
+            android:name=".vd_baothuc.AlarmTrigerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".vd_baothuc.AlarmTriggerBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+        <activity android:name=".video_view"></activity>
+    </application>
+
+</manifest>

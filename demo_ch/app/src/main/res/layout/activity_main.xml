@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:onClick="onClick"
+                        android:gravity="left|center"
+                        android:id="@+id/btn_tuanhoan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Bảng 1 "></Button>
+
+                    <Button
+                        android:onClick="onClick1"
+                        android:gravity="left|center"
+                        android:id="@+id/btn_tan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="bảng 2">
+
+                    </Button>
+                    <Button
+                        android:onClick="onClick2"
+                        android:id="@+id/btn_tc"
+                        android:gravity="left|center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="bảng 3"></Button>
+                </LinearLayout>
+
+</LinearLayout>

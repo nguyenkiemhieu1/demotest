@@ -1,0 +1,32 @@
+<Products>
+    <product>
+        <id>BG1</id>
+        <name>Bánh Gạo</name>
+        <price>10000</price>
+    </product>
+    <product>
+        <id>BQ2</id>
+        <name>Bánh Quy</name>
+        <price>15000</price>
+    </product>
+    <product>
+        <id>BK3</id>
+        <name>Bánh Kem</name>
+        <price>20000</price>
+    </product>
+    <product>
+        <id>1</id>
+        <name>coffee</name>
+        <price>20000</price>
+    </product>
+    <product>
+        <id>2</id>
+        <name>smoothie</name>
+        <price>30000</price>
+    </product>
+    <product>
+        <id>3</id>
+        <name>matcha</name>
+        <price>30000</price>
+    </product>
+</Products>

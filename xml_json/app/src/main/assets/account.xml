@@ -1,0 +1,14 @@
+<accounts>
+    <account>
+        <id>1</id>
+        <pass>A1865</pass>
+    </account>
+    <account>
+        <id>2</id>
+        <pass>A23352</pass>
+    </account>
+    <account>
+        <id>3</id>
+        <pass>A32561</pass>
+    </account>
+</accounts>
